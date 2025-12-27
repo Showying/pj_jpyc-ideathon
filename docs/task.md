@@ -11,14 +11,14 @@
     - [x] Mac Applet Launcher作成 (ワンクリック起動) <!-- id: 11 -->
     - [x] Mac Applet Launcher作成 (ワンクリック起動) <!-- id: 11 -->
     - [x] 役割切り替え機能 (Creator/Buyer Mode) の実装 <!-- id: 12 -->
-    - [/] プレゼン用ストーリー・UIの磨き込み <!-- id: 13 -->
+    - [x] プレゼン用ストーリー・UIの磨き込み <!-- id: 13 -->
         - [x] "Create" → "商品管理 (Manage)" への変更 & 自動化ログ表示 <!-- id: 14 -->
         - [x] "Smart Pricing" の表記見直し (中抜きゼロ/微小なGas代) <!-- id: 15 -->
         - [x] 即時着金 (Instant Liquidity) のデモ機能追加 <!-- id: 16 -->
         - [x] 売上分配 (Money Split) アニメーションの実装 <!-- id: 17 -->
         - [x] 利益計算の可視化 (売値表示) & Gas代表記修正 <!-- id: 18 -->
         - [x] 全画面ナビゲーション・アノテーション (Start to End) の実装 <!-- id: 20 -->
-        - [ ] ストーリーフローの再構築 (Creation -> Purchase -> Execution) <!-- id: 21 -->
+        - [x] ストーリーフローの再構築 (Creation -> Purchase -> Execution) <!-- id: 21 -->
             - [x] PublishボタンでMarketへ自動遷移 <!-- id: 22 -->
             - [x] Marketでの購入をトリガーに "Execution Log" (受注処理) を生成 <!-- id: 23 -->
             - [x] アノテーション番号の振り直しとナビゲーション誘導 (Sell -> Buy -> Check) <!-- id: 24 -->

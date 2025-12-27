@@ -26,22 +26,22 @@
 ### Phase 2: Purchase & Experience (Marketタブ)
 *ゴール: 買い手視点での購入と、それがトリガーする「魔法」の体験。*
 
-1.  **Marketplace (④):** 買い手の視点。以下のラインナップが並ぶ。
+1.  **Marketplace (⑦):** 買い手の視点。以下のラインナップが並ぶ。
     *   **Sci-Fi Bonsai Art Book** (1,800 JPYC)
     *   **Sci-Fi Bonsai Mug** (1,600 JPYC)
     *   **Sci-Fi Bonsai File** (500 JPYC)
     *   **Sci-Fi Bonsai Pouch** (900 JPYC)
-2.  **Buy Action (⑤):**
+2.  **Buy Action (⑧):**
     *   アクション: 商品をクリックして購入。
     *   **Split Animation:** 代金コインが「工場」「配送」「クリエイター」の3方向に物理的に分裂して飛んでいく演出。
-3.  **Feedback Popup (⑥):**
+3.  **Feedback Popup:**
     *   「購入完了」のポップアップを表示。
     *   OKを押すと、**自動的にManageタブ（クリエイター視点）へ戻る**。
 
 ### Phase 3: Execution & Revenue (Manageタブ)
 *ゴール: 全自動で業務が完結したことの証明。*
 
-1.  **Execution Log (⑦):**
+1.  **Execution Log (⑨):**
     *   Manageタブに戻った瞬間、**Execution Log**が出現。
     *   **リアルタイム処理:** 「入金確認」→「分配実行」→「送金完了」のログが流れ、ユーザーの手を煩わせることなく取引が完了したことを示す。
 

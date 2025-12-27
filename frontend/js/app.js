@@ -235,9 +235,9 @@ window.buyItem = function (card, price) {
         const anno6 = document.getElementById('anno-role-switch');
         if (anno6) anno6.style.display = 'inline-flex';
 
-        // 3. Feedback (Step 6 equivalent)
+        // 3. Feedback (Step 8 equivalent)
         setTimeout(() => {
-            if (confirm("⑥ 購入完了! (Step 6)\nスマートコントラクトが自動分配を実行しました。\n\n管理画面に戻って、売上ログ (Step 7) を確認しますか？")) {
+            if (confirm("⑧ 購入完了! (Step 8)\nスマートコントラクトが自動分配を実行しました。\n\n管理画面に戻って、売上ログ (Step 9) を確認しますか？")) {
                 // 1. Switch Tab to Manage
                 document.querySelectorAll('.section').forEach(el => el.classList.remove('active'));
                 document.getElementById('manage').classList.add('active');
