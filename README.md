@@ -11,11 +11,17 @@
 
 ## 📖 概要 (Overview)
 本プロジェクトは、**JPYC Ideathon** に向けたコンセプト「Global Creator Flow」を視覚化するためのプロトタイプです。
-クリエイターが抱える「業務の煩雑さ(Operational Pain)」と「金銭的負担(Financial Pain)」を、ブロックチェーンとAIによってどのように解決できるかを、ストーリー形式のデモで表現しています。
-また、EC/PODプラットフォーム産業に向けた、次世代の産業構造の提案でもあります。
+クリエイターが商品を販売する際に抱える「業務の煩雑さ(Operational Pain)」と「金銭的負担(Financial Pain)」を、ブロックチェーンとAIによってどのように解決できるかを、ストーリー形式のデモで表現しています。
+これは、EC/PODプラットフォーム産業に向けた、次世代の産業構造の提案でもあります。
+
+### AI Creator Economyの到来
+*   Context: 生成AIにより「1億総クリエイター時代」が到来。
+*   Insight: 「創る」ハードルは消滅した。
+*   Question: しかし、なぜ私たちの周りはまだ「AIで作られた商品」で溢れていないのか？
+> 実際に私たちがAIクリエイター/アーティストとして感じた課題(Pain)を元に、EC/PODプラットフォーム産業のアップデートアイデアとして提示します。
 
 ### コンセプト
-*   **Operational Free:** AI店長による発注・配送・契約の全自動化。
+*   **Operational Free:** AIによる発注・配送・契約の全自動化。
 *   **Zero Fees:** JPYCによる直接決済で、プラットフォーム手数料＆振込手数料をゼロに。
 *   **Instant Liquidity:** スマートコントラクトによる「即時売上分配」と「即時着金」。
 
@@ -24,7 +30,7 @@
 *   **[🔴 デモアプリ (Live Mockup)](https://showying.github.io/pj_jpyc-ideathon/frontend/)**
 *   **[デモ操作台本 (Script)](docs/walkthrough.md)**
 *   **[プレゼン構成案 (Pitch Deck)](docs/03_pitch_deck.md)**
-*   **[課題と解決策の定義 (Plan)](docs/implementation_plan.md)**
+*   **[課題と解決策の定義 (Plan)](docs/02_solution_idea.md)**
 *   **[モックアップ仕様書](docs/mockup_plan.md)**
 
 ## 🚀 機能と特徴 (Features)
@@ -48,16 +54,18 @@ GitHub Pagesでの動作を前提とした、軽量な静的サイト構成で�
 ## 📚 ドキュメント (Documentation)
 詳細な仕様やデモの手順については、以下のドキュメントを参照してください。
 
-*   **[モックアップ仕様書 (Spec)](docs/mockup_plan.md):**
-    *   実装されている機能、画面フロー、金融ロジックの詳細仕様。
+*   **[🔴 デモアプリ (Live Mockup)](https://showying.github.io/pj_jpyc-ideathon/frontend/)**
 *   **[デモ操作マニュアル (Demo Script)](docs/walkthrough.md):**
     *   プレゼン本番用の台本。画面上のアノテーション番号(①〜⑨)に沿った操作ガイド。
+*   **[モックアップ仕様書 (Spec)](docs/mockup_plan.md):**
+    *   実装されている機能、画面フロー、金融ロジックの詳細仕様。
+*   **[プレゼン構成案 (Pitch Deck)](docs/03_pitch_deck.md)**
+*   **[課題と解決策の定義 (Plan)](docs/implementation_plan.md)**
 
 ## 💻 使い方 (Usage)
-1.  リポジトリをクローンまたはダウンロードします。
-2.  `frontend/index.html` をブラウザ（Chrome推奨）で開きます。
-3.  画面サイズを「スマートフォン」または「幅の狭いウィンドウ」に調整します。
-4.  画面上に表示される **赤丸の番号 (①〜⑨)** に従って操作してください。
+1.  リポジトリをクローンまたはダウンロードし、`frontend/index.html` をブラウザ（Chrome推奨）で開きます。。（または [🔴 デモアプリ (Live Mockup)](https://showying.github.io/pj_jpyc-ideathon/frontend/) を開きます）
+2.  画面サイズを「スマートフォン」または「幅の狭いウィンドウ」に調整します。（PCでも開けます）
+3.  画面上に表示される **赤丸の番号 (①〜⑨)** に従って操作してください。
 
 ---
 Created for JPYC Ideathon.
