@@ -1,9 +1,10 @@
 ---
 description: Generate a GitHub commit message based on the current changes (git status/diff)
 ---
-1. **Analyze Changes**:
-   - Run `git status` to identify modified, new, and deleted files.
-   - Run `git diff` (and `git diff --cached` if needed) to understand the *semantic* value of the changes.
+1. **Analyze Context**:
+   - Recall the task you just completed and the files you modified.
+   - If user explicitly provides diff context, use it.
+   - *Do not run `git status` or `git diff` unless explicitly asked.*
 
 2. **Formulate Commit Message**:
    - Follow the **Conventional Commits** format: `<type>(<scope>): <subject>`
