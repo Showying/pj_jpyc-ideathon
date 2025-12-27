@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Creator Flow (GCF) Mockup</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Mode Switcher -->
+    <button id="role-toggle" class="role-switcher">
+        👤 Creator Mode
+        <div class="annotation-wrapper" style="display:inline-block;">
+            <span class="annotation-marker" onclick="event.stopPropagation(); toggleTooltip(this)" style="display:none;"
+                id="anno-role-switch">⑥</span>
+            <div class="annotation-tooltip" style="top:30px; right:0; left:auto; transform:none;">
+                <strong>Check Result</strong><br>
+                売上の確認のため、<br>
+                Creator Modeに戻ります。
+            </div>
+        </div>
+    </button>
+
+    <div class="container">
+
+        <!-- === SECTION: DASHBOARD (HOME) === -->
+        <section id="home" class="section active">
+            <header class="flex justify-between items-center" style="margin-bottom: 24px;">
+                <h1 class="font-bold text-lg">Dashboard</h1>
+                <div class="user-avatar" style="width: 32px; height: 32px; background: #ddd; border-radius: 50%;"></div>
+            </header>
+
+            <!-- Wallet Card -->
+            <div class="card balance-card" style="position: relative; overflow: hidden;">
+                <div class="text-xs" style="opacity: 0.8;">Total Balance</div>
+                <div class="flex items-center gap-2" style="margin-top: 4px;">
+                    <span class="font-bold" style="font-size: 2rem;">¥<span id="wallet-balance">0</span></span>
+                    <span class="text-sm"
+                        style="background: rgba(255,255,255,0.2); padding: 2px 8px; border-radius: 12px;">JPYC</span>
+                </div>
+                <div class="text-xs" style="margin-top: 12px; opacity: 0.9;">
+                    Last payout: Just now
+                </div>
+                <!-- Instant Liquidity Demo Button -->
+                <button id="btn-sim-sale"
+                    style="position: absolute; right: 10px; top: 10px; background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.4); color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.6rem; cursor: pointer;">
+                    ⚡ Sim Sale
+                </button>
+            </div>
+
+            <!-- Stats -->
+            <div class="card">
+                <h3 class="font-bold text-sm" style="margin-bottom: 12px;">Performance</h3>
+                <div class="flex justify-between text-center">
+                    <div>
+                        <div class="text-xs text-muted">Views</div>
+                        <div class="font-bold">1.2k</div>
+                    </div>
+                    <div>
+                        <div class="text-xs text-muted">Orders</div>
+                        <div class="font-bold text-primary">24</div>
+                    </div>
+                    <div>
+                        <div class="text-xs text-muted">Avg. Profit</div>
+                        <div class="font-bold text-accent">22%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Items -->
+            <h3 class="font-bold text-sm" style="margin-bottom: 12px;">My Products</h3>
+            <div class="card flex items-center gap-4">
+                <img src="assets/mug.jpg" alt="Item"
+                    style="width: 60px; height: 60px; border-radius: 8px; object-fit: cover;">
+                <div style="flex: 1;">
+                    <div class="font-bold text-sm">Sci-Fi Bonsai Mug</div>
+                    <div class="text-xs text-muted">1,600 JPYC</div>
+                </div>
+                <div class="text-accent font-bold text-sm">+700</div>
+            </div>
+
+            <div class="card flex items-center gap-4">
+                <img src="assets/pouch.jpg" alt="Item"
+                    style="width: 60px; height: 60px; border-radius: 8px; object-fit: cover;">
+                <div style="flex: 1;">
+                    <div class="font-bold text-sm">Sci-Fi Bonsai Pouch</div>
+                    <div class="text-xs text-muted">900 JPYC</div>
+                </div>
+                <div class="text-accent font-bold text-sm">+200</div>
+            </div>
+        </section>
+
+
+        <!-- === SECTION: MANAGE (WAS CREATE) === -->
+        <section id="manage" class="section">
+            <header class="text-center" style="margin-bottom: 24px;">
+                <h1 class="font-bold text-lg">Product Management</h1>
+                <p class="text-xs text-muted">Agentic Workflow: Active</p>
+                <div class="annotation-wrapper" style="position: absolute; top: 20px; right: 20px;">
+                    <span class="annotation-marker" onclick="toggleTooltip(this)">①</span>
+                    <div class="annotation-tooltip" style="width: 180px; left: auto; right: 0; transform: none;">
+                        <strong>Start Here</strong><br>
+                        "Operational Pain"を解決。<br>
+                        AI店長による自動化を開始します。
+                    </div>
+                </div>
+            </header>
+
+            <div class="card">
+                <label class="text-xs font-bold text-muted">NEW ITEM PROMPT</label>
+                <textarea id="ai-prompt"
+                    placeholder="Describe your idea... (e.g. 'A retro futuristic city in pastel colors')"
+                    style="width: 100%; padding: 12px; border: 1px solid #E5E7EB; border-radius: 8px; margin-top: 8px; font-family: inherit; resize: none; height: 80px;"></textarea>
+
+                <div class="flex gap-2" style="margin-top: 12px;">
+                    <button class="btn btn-secondary text-xs" style="padding: 8px;">Style: Sci-Fi</button>
+                    <button class="btn btn-secondary text-xs" style="padding: 8px;">Item: Art Book</button>
+                </div>
+
+                <div style="margin-top: 24px;">
+                    <button id="btn-generate" class="btn btn-primary" style="position: relative;">
+                        Generate Idea
+                        <div class="annotation-wrapper" style="display:inline-block; margin-left:8px;">
+                            <span class="annotation-marker" onclick="toggleTooltip(this)">②</span>
+                            <div class="annotation-tooltip">
+                                <strong>AI Agent Execution</strong><br>
+                                面倒な発注・計算・契約書作成を<br>
+                                AIが数秒で完了させます。
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Automation Log (Setup Phase) -->
+            <div id="automation-log" class="card"
+                style="background: #111827; color: #10B981; font-family: monospace; font-size: 0.75rem; display: none;">
+                <div
+                    style="border-bottom: 1px solid #374151; padding-bottom: 8px; margin-bottom: 8px; font-weight: bold; color: #9CA3AF;">
+                    >_ SETUP LOG (AI Agent)
+                </div>
+                <div id="log-content"></div>
+            </div>
+
+            <!-- Execution Log (Result Phase) -->
+            <div id="execution-log" class="card"
+                style="background: #1e1b4b; color: #38bdf8; font-family: monospace; font-size: 0.75rem; display: none; margin-top: 12px; border: 1px solid #4338ca;">
+                <div
+                    style="border-bottom: 1px solid #4c1d95; padding-bottom: 8px; margin-bottom: 8px; font-weight: bold; color: #a78bfa;">
+                    >_ EXECUTION LOG (Smart Contract)
+                    <span class="annotation-marker" onclick="toggleTooltip(this)">⑦</span>
+                    <div class="annotation-tooltip" style="bottom: auto; top: 120%;">
+                        <strong>処理完了</strong><br>
+                        商品が売れると、ここにリアルタイムで<br>
+                        実行ログ（自動分配）が表示されます。
+                    </div>
+                </div>
+                <div id="execution-log-content"></div>
+            </div>
+
+            <!-- Result Preview (Hidden initially) -->
+            <div id="gen-preview" class="card" hidden>
+                <div style="position: relative;">
+                    <span
+                        style="position: absolute; top: 10px; left: 10px; background: black; color: white; font-size: 0.6rem; padding: 2px 6px; border-radius: 4px;">AI
+                        GENERATED</span>
+                    <!-- REPLACE WITH YOUR PRODUCT IMAGE HERE -->
+                    <img src="assets/artbook.jpg" class="product-image" alt="Generated">
+                </div>
+
+                <div style="margin-top: 16px;">
+                    <h3 class="font-bold">Sci-Fi Bonsai Art Book</h3>
+
+                    <div style="margin-top: 16px; background: #F9FAFB; padding: 12px; border-radius: 8px;">
+                        <div class="text-xs font-bold text-muted" style="margin-bottom: 8px;">TRIGGER & SPLIT (自動分配)
+                        </div>
+
+                        <!-- Selling Price Row -->
+                        <div
+                            style="display: flex; justify-content: space-between; margin-bottom: 8px; padding-bottom: 8px; border-bottom: 2px solid #E5E7EB;">
+                            <div class="font-bold">販売価格 (Price)</div>
+                            <div class="font-bold">1,800 JPYC</div>
+                        </div>
+
+                        <div class="cost-breakdown">
+                            <!-- Point 1: Automation -->
+                            <div class="text-muted annotation-wrapper">
+                                原価 (Factory)
+                                <span class="annotation-marker" onclick="toggleTooltip(this)">③</span>
+                                <div class="annotation-tooltip">
+                                    <strong>完全自動発注</strong><br>
+                                    注文と同時に工場へデータ送付。<br>
+                                    "AI店長"が24時間365日働きます。
+                                </div>
+                            </div>
+                            <div class="text-right">800 JPYC</div>
+
+                            <div class="text-muted">送料 (Logistics)</div>
+                            <div class="text-right">500 JPYC</div>
+
+                            <div class="text-muted">Gas代</div>
+                            <div class="text-right text-xs" style="color: #6B7280;">約 1 JPYC</div>
+
+                            <!-- Point 2: Zero Fees -->
+                            <div class="text-muted annotation-wrapper"
+                                style="text-decoration: line-through; color: #EF4444;">
+                                PF手数料 & 振込手数料
+                                <span class="annotation-marker" onclick="toggleTooltip(this)">④</span>
+                                <div class="annotation-tooltip">
+                                    <strong>中抜きゼロ</strong><br>
+                                    プラットフォーム手数料も、<br>
+                                    750円の振込手数料も不要です。
+                                </div>
+                            </div>
+                            <div class="text-right text-accent font-bold">0 JPYC</div>
+                        </div>
+
+                        <!-- Point 3: Profit -->
+                        <div class="annotation-wrapper"
+                            style="border-top: 1px solid #E5E7EB; margin-top: 8px; padding-top: 8px; display: flex; justify-content: space-between; align-items: center;">
+                            <div class="font-bold flex items-center">
+                                Your Profit (利益)
+                                <span class="annotation-marker" onclick="toggleTooltip(this)">⑤</span>
+                                <div class="annotation-tooltip">
+                                    <strong>即時着金 (+28%)</strong><br>
+                                    売れた瞬間にウォレットへ。<br>
+                                    キャッシュフローの悩みから解放。
+                                </div>
+                            </div>
+                            <div class="font-bold text-primary text-lg">+500 JPYC</div>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 24px;">
+                        <button id="btn-publish" class="btn btn-primary"
+                            style="background: linear-gradient(135deg, #10B981, #059669); position: relative;">
+                            Publish to Market
+                            <div class="annotation-wrapper" style="display:inline-block; margin-left:8px;">
+                                <span class="annotation-marker" onclick="toggleTooltip(this)">⑥</span>
+                                <div class="annotation-tooltip">
+                                    <strong>Smart Contract Deploy</strong><br>
+                                    ワンクリックで世界中の市場へ。<br>
+                                    自動分配契約がブロックチェーンに刻まれます。
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- === SECTION: MARKET (BUYER VIEW) === -->
+        <section id="market" class="section">
+            <header class="text-center" style="margin-bottom: 24px;">
+                <h1 class="font-bold text-lg">Marketplace</h1>
+            </header>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                <!-- Product 1: Art Book -->
+                <div class="card" style="padding: 8px; cursor: pointer;" onclick="buyItem(this, 1800)">
+                    <div style="position: relative;">
+                        <div class="annotation-wrapper" style="position: absolute; top: 5px; right: 5px; z-index:10;">
+                            <span class="annotation-marker"
+                                onclick="event.stopPropagation(); toggleTooltip(this)">⑦</span>
+                            <div class="annotation-tooltip" style="right:0; left:auto; transform:none;">
+                                <strong>Buy Action</strong><br>
+                                購入してください。<br>
+                                その後、Creator Modeに戻って<br>
+                                ログを確認します。
+                            </div>
+                        </div>
+                        <img src="assets/artbook.jpg" class="product-image" alt="Item">
+                        <div class="split-animation-container"
+                            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none;">
+                        </div>
+                    </div>
+                    <div style="padding: 4px;">
+                        <div class="font-bold text-sm">Sci-Fi Bonsai Art Book</div>
+                        <div class="text-xs text-muted">1,800 JPYC</div>
+                        <!-- Add a visual 'Buy' indicator for Buyer mode -->
+                        <div class="buy-indicator text-xs text-primary font-bold"
+                            style="margin-top: 4px; display: none;">Tap to Buy</div>
+                    </div>
+                </div>
+                <!-- Product 2: Mug -->
+                <div class="card" style="padding: 8px; cursor: pointer;" onclick="buyItem(this, 1600)">
+                    <div style="position: relative;">
+                        <img src="assets/mug.jpg" class="product-image" alt="Item">
+                        <div class="split-animation-container"
+                            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none;">
+                        </div>
+                    </div>
+                    <div style="padding: 4px;">
+                        <div class="font-bold text-sm">Sci-Fi Bonsai Mug</div>
+                        <div class="text-xs text-muted">1,600 JPYC</div>
+                        <div class="buy-indicator text-xs text-primary font-bold"
+                            style="margin-top: 4px; display: none;">Tap to Buy</div>
+                    </div>
+                </div>
+                <!-- Product 3: Clear File -->
+                <div class="card" style="padding: 8px; cursor: pointer;" onclick="buyItem(this, 500)">
+                    <div style="position: relative;">
+                        <img src="assets/clearfile.png" class="product-image" alt="Item">
+                        <div class="split-animation-container"
+                            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none;">
+                        </div>
+                    </div>
+                    <div style="padding: 4px;">
+                        <div class="font-bold text-sm">Sci-Fi Bonsai File</div>
+                        <div class="text-xs text-muted">500 JPYC</div>
+                        <div class="buy-indicator text-xs text-primary font-bold"
+                            style="margin-top: 4px; display: none;">Tap to Buy</div>
+                    </div>
+                </div>
+                <!-- Product 4: Pouch -->
+                <div class="card" style="padding: 8px; cursor: pointer;" onclick="buyItem(this, 900)">
+                    <div style="position: relative;">
+                        <img src="assets/pouch.jpg" class="product-image" alt="Item">
+                        <div class="split-animation-container"
+                            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none;">
+                        </div>
+                    </div>
+                    <div style="padding: 4px;">
+                        <div class="font-bold text-sm">Sci-Fi Bonsai Pouch</div>
+                        <div class="text-xs text-muted">900 JPYC</div>
+                        <div class="buy-indicator text-xs text-primary font-bold"
+                            style="margin-top: 4px; display: none;">Tap to Buy</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+        <a href="#home" class="nav-item active">
+            <span class="nav-icon">🏠</span>
+            <span>Home</span>
+        </a>
+        <a href="#manage" class="nav-item">
+            <div class="annotation-wrapper" style="position: absolute; top: -8px; left: 50%; margin-left: 10px;">
+                <span class="annotation-marker" onclick="toggleTooltip(this)">①</span>
+                <div class="annotation-tooltip" style="width: 180px; bottom: 150%;">
+                    <strong>Start Here</strong><br>
+                    "Operational Pain"を解決。<br>
+                    AI店長による自動化を開始します。
+                </div>
+            </div>
+            <span class="nav-icon"
+                style="font-size: 2rem; margin-top: -12px; filter: drop-shadow(0 4px 6px rgba(37,99,235,0.3));">✨</span>
+            <span style="font-weight: bold; color: var(--primary);">Manage</span>
+        </a>
+        <a href="#market" class="nav-item">
+            <span class="nav-icon">🛒</span>
+            <span>Market</span>
+            <div class="annotation-wrapper" style="position: absolute; top: -8px; left: 50%; margin-left: 10px;">
+                <span class="annotation-marker" onclick="toggleTooltip(this)">④</span>
+                <div class="annotation-tooltip" style="width: 150px; bottom: 150%;">
+                    <strong>Buyer View</strong><br>
+                    購入者の視点です。
+                </div>
+            </div>
+        </a>
+    </nav>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

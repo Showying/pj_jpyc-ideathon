@@ -1,0 +1,37 @@
+# User PoC Memo: Real-World Pains in Creator Economy
+
+## Context
+背景として私は今年アーティスト&世界創造クリエイターとなった。今後AIという新たな道具（楽器・筆など）を持ったアーティストクリエイターは増える。そして私はその世界観をECでロット1のPODでグローバル世界に販売する計画を立て、実際にまずは国内だがEC/PODをPoCとして自ら売り手と買い手を経験してみた。しかしそこで感じた課題は以下。そしてそれらはステーブルコインや分散金融×エージェントによって解決し得ると想定する。それをアイデアとして提示したい。
+
+## 課題 (Pains)
+
+### 1. Financial Pain (Fees & Costs)
+- **決済手数料:** 3.6% ＋ 40円
+- **プラットフォーム手数料:** 3%（商品＋送料込みに対してかかる）
+    - *Note:* これらが重なり、利益を圧迫する。
+- **売上引き出し手数料:** 最大750円/回（毎回銀行口座へ出金手続きが必要）
+    - *Impact:* キャッシュフローが悪化しやすい。
+- **海外販売（予想されるコスト）:**
+    - BASEかんたん海外販売: 海外送料 ＋ 代行手数料 ＋ 5%手数料
+    - Etsy: 出品料 $0.20 + 販売6.5% + 決済3〜4% + POD原価
+    - *Note:* まだグローバル版は未実施だが、相当なコスト増が見込まれる。
+
+### 2. Logistical Pain (Shipping)
+- **送料の高騰:** 800円〜2,000円かかる。
+- **分納問題:** 工場が分かれると分納になり、送料が重複して値段がさらに上がる。
+    - *Impact:* マグカップは国内向けでも送料込みで3,000円オーバー、クリアファイルは1枚換算900円程度になってしまう（売れづらくなる）。
+
+### 3. Operational Pain (Efficiency)
+- **プロセス分断:** 受注 → 発注 → 生産 → 出荷 → 納品 → 売上確定 → 引き出し
+    - 各プロセスで「オーダー単位」＋「商品/分納単位」での作業や手続きが発生（手間）。
+- **データ分析:** プラットフォームの機能・UXに縛られる。
+
+## 結果 (Consequence)
+- **売り手:** 手間とコストを考慮すると、一定の粗利率を維持するために単価を上げざるを得ない。海外販売はさらに上乗せが必要で、売れづらくなる。キャッシュフローも悪化。
+- **買い手:** 高値で買わざるを得ない。複数のプラットフォーム横断処理により、到着まで数週間かかる場合がある。
+
+## References (User Provided)
+- [Fees Doc](https://docs.google.com/document/d/1U4PpSf6Ukc1Bv-eGffRftojwcJXGar1lXJbbeCgysJ8/edit?usp=drivesdk)
+- [Shipping Doc](https://docs.google.com/document/d/1Y3CMBwkmefjHpSz-Q-avIUi9PwR-P6HX47L9dDYTbe4/edit?usp=drivesdk)
+- [Global Cost Doc](https://docs.google.com/document/d/10sjlAm9og35CJs8mruN_beqaFjoW1FiNS_dhKC6twaY/edit?usp=drivesdk)
+- [Another Cost Doc](https://docs.google.com/document/d/1qfhiANcDNEyBvIAGNuC2pPsFRipyDwjzQMDpzYtYb5E/edit?usp=drivesdk)
