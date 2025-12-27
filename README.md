@@ -60,7 +60,7 @@ GitHub Pagesでの動作を前提とした、軽量な静的サイト構成で�
 *   **[モックアップ仕様書 (Spec)](docs/mockup_plan.md):**
     *   実装されている機能、画面フロー、金融ロジックの詳細仕様。
 *   **[プレゼン構成案 (Pitch Deck)](docs/03_pitch_deck.md)**
-*   **[課題と解決策の定義 (Plan)](docs/implementation_plan.md)**
+*   **[課題と解決策の定義 (Plan)](docs/02_solution_idea.md)**
 
 ## 💻 使い方 (Usage)
 1.  リポジトリをクローンまたはダウンロードし、`frontend/index.html` をブラウザ（Chrome推奨）で開きます。。（または [🔴 デモアプリ (Live Mockup)](https://showying.github.io/pj_jpyc-ideathon/frontend/) を開きます）
