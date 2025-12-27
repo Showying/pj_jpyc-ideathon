@@ -3,6 +3,9 @@
 ![Project Status](https://img.shields.io/badge/Status-Prototype-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+> **Concept Proposal for the EC / POD (Print on Demand) Industry**
+> 本プロジェクトは、EC/PODプラットフォーム産業に向けた、次世代の産業構造の提案です。
+
 > **"Frictionless Logic for Global Creators"**
 > JPYCとAI Agent、そしてスマートコントラクトが織りなす、次世代のクリエイターエコノミー実証モックアップ。
 

@@ -1,5 +1,8 @@
 # モックアップ仕様書: Global Creator Flow (GCF)
 
+> **Concept Proposal for the EC / POD (Print on Demand) Industry**
+> 本プロジェクトは、EC/PODプラットフォーム産業に向けた、次世代の産業構造の提案です。
+
 ## 1. 概要
 本モックアップは、JPYC Ideathonのための「Global Creator Flow」コンセプトを実証するデモアプリケーションです。
 クリエイターの「業務負担(Operational Pain)」と「金銭的負担(Financial Pain)」が、AIエージェントとスマートコントラクトによって解決される様子をストーリー形式で体験できます。

@@ -1,5 +1,8 @@
 # Pitch Deck Outline: Global Creator Flow (GCF)
 
+> **Concept Proposal for the EC / POD (Print on Demand) Industry**
+> 本プロジェクトは、EC/PODプラットフォーム産業に向けた、次世代の産業構造の提案です。
+
 ## 1. Title Slide
 - **Project Name:** Global Creator Flow (GCF)
 - **Catchphrase:** 手数料と手間をゼロにする。〜JPYC × スマートコントラクトが創る、次世代クリエイター経済圏〜
