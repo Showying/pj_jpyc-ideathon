@@ -63,10 +63,9 @@ GitHub Pagesでの動作を前提とした、軽量な静的サイト構成で�
 *   **[課題と解決策の定義 (Plan)](docs/implementation_plan.md)**
 
 ## 💻 使い方 (Usage)
-1.  リポジトリをクローンまたはダウンロードします。
-2.  `frontend/index.html` をブラウザ（Chrome推奨）で開きます。
-3.  画面サイズを「スマートフォン」または「幅の狭いウィンドウ」に調整します。
-4.  画面上に表示される **赤丸の番号 (①〜⑨)** に従って操作してください。
+1.  リポジトリをクローンまたはダウンロードし、`frontend/index.html` をブラウザ（Chrome推奨）で開きます。。（または [🔴 デモアプリ (Live Mockup)](https://showying.github.io/pj_jpyc-ideathon/frontend/) を開きます）
+2.  画面サイズを「スマートフォン」または「幅の狭いウィンドウ」に調整します。（PCでも開けます）
+3.  画面上に表示される **赤丸の番号 (①〜⑨)** に従って操作してください。
 
 ---
 Created for JPYC Ideathon.
