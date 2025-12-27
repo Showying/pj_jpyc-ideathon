@@ -17,12 +17,11 @@
 
 ### 📂 関連資料 (Presentation Materials)
 本プロジェクトの背景にある課題分析や、プレゼンテーション構成については以下を参照してください。
-*   **[プレゼン構成案 (Pitch Deck)](docs/03_pitch_deck.md):**
-    *   スライド全体のストーリーライン、各ページのキーメッセージ。
-*   **[課題と解決策の定義 (Plan)](docs/implementation_plan.md):**
-    *   クリエイターの「ペイン」と、それを解決する技術的アプローチの詳細。
-*   **[モックアップ仕様書](docs/mockup_plan.md) / [操作台本](docs/walkthrough.md):**
-    *   具体的なデモの見せ方。
+*   **[🔴 デモアプリ (Live Mockup)](https://showying.github.io/pj_jpyc-ideathon/frontend/)**
+*   **[デモ操作台本 (Script)](docs/walkthrough.md)**
+*   **[プレゼン構成案 (Pitch Deck)](docs/03_pitch_deck.md)**
+*   **[課題と解決策の定義 (Plan)](docs/implementation_plan.md)**
+*   **[モックアップ仕様書](docs/mockup_plan.md)**
 
 ## 🚀 機能と特徴 (Features)
 本モックアップでは、以下のフローを体験できます（数値やログはデモ用の演出です）。
