@@ -1,7 +1,7 @@
-# Pitch Deck Outline: Global Creator Flow (GCF)
+# Pitch Deck Outline: 暗号商流（クリプト・フロー） 〜ボーダレスEC/POD with JPYC〜
 
 ## 1. Title Slide
-- **Project Name:** Global Creator Flow (GCF)
+- **Project Name:** 暗号商流（クリプト・フロー） 〜ボーダレスEC/POD with JPYC〜
 - **Catchphrase:** 手数料と手間をゼロにする。〜JPYC × スマートコントラクトが創る、次世代クリエイター経済圏〜
 - **Sub-concept:** Powered by ACEP (Agentic Commerce Execution Protocol)
 

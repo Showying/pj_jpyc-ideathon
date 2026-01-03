@@ -1,4 +1,4 @@
-# OKRs (Objectives and Key Results)
+# OKRs: 暗号商流（クリプト・フロー） 〜ボーダレスEC/POD with JPYC〜
 
 ## Update Log
 - **2025-12-27**: Initial draft created.

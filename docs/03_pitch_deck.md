@@ -1,10 +1,10 @@
-# Pitch Deck Outline: Global Creator Flow (GCF)
+# Pitch Deck Outline: 暗号商流（クリプト・フロー） 〜ボーダレスEC/POD with JPYC〜
 
 > **Concept Proposal for the EC / POD (Print on Demand) Industry**
 > 本プロジェクトは、EC/PODプラットフォーム産業に向けた、次世代の産業構造の提案です。
 
 ## 1. Title Slide
-- **Project Name:** Global Creator Flow (GCF)
+- **Project Name:** 暗号商流（クリプト・フロー） 〜ボーダレスEC/POD with JPYC〜
 - **Catchphrase:** 手数料と手間をゼロにする。〜JPYC × スマートコントラクトが創る、次世代クリエイター経済圏〜
 - **Sub-concept:** Powered by ACEP (Agentic Commerce Execution Protocol)
 
@@ -50,14 +50,14 @@
 **誰かを排除するのではなく、全員の利益を最大化する「一石三鳥」の構造改革。**
 
 ### The Mechanism of Mutual Gain (三方よし)
-GCFプロトコル（金融レイヤー）の導入は、プラットフォームにとっても「コスト削減」と「市場拡大」を同時に叶える一石二鳥の戦略となる。
+暗号商流プロトコル（金融レイヤー）の導入は、プラットフォームにとっても「コスト削減」と「市場拡大」を同時に叶える一石二鳥の戦略となる。
 
 - **For Platforms (一石):** 決済・振込手数料の呪縛から解放され、利益率と取扱高(GMV)が向上。
 - **For Creators (二鳥):** 原価低減により、適正価格での販売と利益確保が可能に。
 - **For Customers (三鳥):** 安価に多品種のグッズを楽しめるようになり、購買意欲が増加。
 
 ### Conclusion
-既存POD事業者がGCFを取り入れることは、顧客満足度を高めつつ自社の収益性も改善する、最も合理的な「両得」の成長戦略である。
+既存POD事業者が暗号商流（クリプト・フロー）を取り入れることは、顧客満足度を高めつつ自社の収益性も改善する、最も合理的な「両得」の成長戦略である。
 
 ## 6. Business Impact: Economics
 **数字で見る劇的改善（Before / After）**

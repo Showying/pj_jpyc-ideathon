@@ -1,4 +1,4 @@
-# Global Creator Flow (GCF) - JPYC Ideathon Mockup
+# 暗号商流（クリプト・フロー） 〜ボーダレスEC/POD with JPYC〜 - JPYC Ideathon Mockup
 
 ![Project Status](https://img.shields.io/badge/Status-Prototype-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -10,7 +10,7 @@
 > JPYCとAI Agent、そしてスマートコントラクトが織りなす、次世代のクリエイターエコノミー実証モックアップ。
 
 ## 📖 概要 (Overview)
-本プロジェクトは、**JPYC Ideathon** に向けたコンセプト「Global Creator Flow」を視覚化するためのプロトタイプです。
+本プロジェクトは、**JPYC Ideathon** に向けたコンセプト「暗号商流（クリプト・フロー）」を視覚化するためのプロトタイプです。
 クリエイターが商品を販売する際に抱える「業務の煩雑さ(Operational Pain)」と「金銭的負担(Financial Pain)」を、ブロックチェーンとAIによってどのように解決できるかを、ストーリー形式のデモで表現しています。
 これは、EC/PODプラットフォーム産業に向けた、次世代の産業構造の提案でもあります。
 

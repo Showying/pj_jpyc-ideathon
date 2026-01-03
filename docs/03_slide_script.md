@@ -1,4 +1,4 @@
-# Google Slides Script: Global Creator Flow (GCF)
+# Google Slides Script: 暗号商流（クリプト・フロー） 〜ボーダレスEC/POD with JPYC〜
 
 本ドキュメントは `03_pitch_deck.md` を元に、Googleスライド作成用に構成した台本です。
 スライドごとに1ページずつ作成してください。
@@ -7,12 +7,12 @@
 
 ## Slide 1: Title (タイトル)
 - **Layout:** Title Only (Center Aligned)
-- **Title:** Global Creator Flow (GCF)
+- **Title:** 暗号商流（クリプト・フロー） 〜ボーダレスEC/POD with JPYC〜
 - **Subtitle:** 手数料と手間をゼロにする。\n〜JPYC × スマートコントラクトが創る、次世代クリエイター経済圏〜
 - **Footer/Small Text:** Powered by ACEP (Agentic Commerce Execution Protocol)
 - **Visual:** 背景に「サイバーパンクな盆栽」や「近未来の工房」のイメージ（AI生成画像推奨）
 - **Speaker Notes:**
-  Global Creator Flow、略してGCF。
+  暗号商流（クリプト・フロー）、略して「暗号商流」。
   これは、JPYCとスマートコントラクトを活用し、クリエイターの「手数料」と「手間」を極限までゼロにする、次世代のコマースインフラです。
 
 ---
@@ -62,7 +62,7 @@
   *   **Result:** 利益率20%超 ＆ 完全手放し運用。
 - **Visual:** 中央にJPYCのコインがあり、そこから工場・配送業者へ自動で光（資金）が飛んでいく図
 - **Speaker Notes:**
-  そこで私たちは、JPYCを基軸とした新しいインフラ「GCF」を提案します。
+  そこで私たちは、JPYCを基軸とした新しいインフラ「暗号商流（クリプト・フロー）」を提案します。
   金融レイヤーをJPYCに置き換えることで、手数料構造を破壊します。
   さらに、スマートコントラクトが業務フローそのものをコード化し、完全自動化を実現します。
   これにより、低単価なグッズでもしっかり利益が出て、かつ「完全手放し」で回る世界を作ります。
@@ -71,7 +71,7 @@
 
 ## Slide 5: The Demo (デモ / MVP)
 - **Layout:** Full Screen Image / Video Placeholder
-- **Title:** MVP: Global Creator Flow Demo
+- **Title:** MVP: 暗号商流（クリプト・フロー） デモ
 - **Body Text:**
   (ここにデモ動画またはスクリーンショットを配置)
   *   **Automated Split:** 購入と同時に、工場・配送・利益へ自動分配。
@@ -88,7 +88,7 @@
 - **Layout:** Comparison Table
 - **Title:** 数字で見る劇的改善
 - **Body Text:** (表組)
-  | | 既存EC | **GCF (本提案)** |
+  | | 既存EC | **暗号商流 (本提案)** |
   |---|---|---|
   | **決済手数料** | ~150円 | **~1円** (Gas) |
   | **振込手数料** | 250円~ | **0円** (Wallet直) |
@@ -137,9 +137,9 @@
 ## Slide 9: Conclusion (結び)
 - **Layout:** Impact Statement (Center)
 - **Main Text:** クリエイターの情熱を、\n「手数料」と「手間」のない世界へ。
-- **Sub Text:** Vote for Global Creator Flow.
+- **Sub Text:** Vote for 暗号商流（クリプト・フロー）.
 - **Visual:** Slide 1と同じ世界観の、より明るく希望のあるイメージ
 - **Speaker Notes:**
   クリエイターの情熱を、無駄なコストと作業から解放しましょう。
   JPYCとブロックチェーンで、新しい「創る」のインフラを。
-  Global Creator Flowでした。ありがとうございました。
+  暗号商流（クリプト・フロー）でした。ありがとうございました。
