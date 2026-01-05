@@ -55,7 +55,7 @@
 > AIクリエイターが「在庫を持たず」「低単価・少額」から世界へ販売できる自律的商流インフラを構築。
 > JPYC決済をトリガーに、スマートコントラクトが工場への原価・送料・利益を即時自動分配。さらにMCPやEIP-7702を活用し、AIエージェントに限定的な決済権限を付与することで、受注から発送までの事務作業を完全に無人化します。既存金融の手数料構造では成立しなかったマイクロ・コマースを、ステーブルコインの力で黒字化・民主化します。
 
-- **参照:** [02_solution_idea.md](file:///Users/sho_takahashi/Documents/Google Antigravity/pj_jpyc-ideathon/docs/02_solution_idea.md#L86-L88)
+- **参照:** [02_solution_idea.md](./02_solution_idea.md#L86-L88)
 
 ### ターゲットとする業界・領域 *
 - [x] EC・小売
@@ -80,14 +80,14 @@
 >    - **AI生成とアナログ管理の乖離:** 生成AIによって作品は一瞬で100通り作れますが、それをECに出品し、受注ごとに工場へ発注し、配送状況を確認する事務作業は依然として「人間によるアナログなリレー」です。「売れれば売れるほど忙しくなり、創作時間が奪われる」というパラドックスが、個人の可能性を制限しています。
 >    - **複雑な利益分配:** 共同プロジェクトや原価・送料の支払い管理を手作業で行うのは限界があり、ミスや遅延の温床となっています。
 
-- **参照:** [02_solution_idea.md](file:///Users/sho_takahashi/Documents/Google Antigravity/pj_jpyc-ideathon/docs/02_solution_idea.md#L22-L37)
+- **参照:** [02_solution_idea.md](./02_solution_idea.md#L22-L37)
 
 ### ステーブルコインを活用したソリューション概要 *
 > **「JPYCの金融革命」×「スマートコントラクトの自動化」**
 > - JPYC決済により、決済手数料を1円以下に圧縮し、即時着金を実現。
 > - スマートコントラクトによる「プログラマブル・スプリット（売上の原価・送料・利益への自動分配）」を行い、経理・振込コストをゼロにする。
 
-- **参照:** [03_pitch_deck.md](file:///Users/sho_takahashi/Documents/Google Antigravity/pj_jpyc-ideathon/docs/03_pitch_deck.md#L33-L48)
+- **参照:** [03_pitch_deck.md](./03_pitch_deck.md#L33-L48)
 
 ---
 
@@ -99,7 +99,7 @@
 > 2. **Session Key (EIP-7702等) の限定活用:** AIエージェントに「指定されたPOD工場への、一定額以下の送金権限」のみを付与する仕組み（Session Key）を導入します。ユーザーは既存のMetaMask等のウォレットをそのまま使いながら、AIに「お使い（発注と支払い）」を安全に任せることが可能です。
 > 3. **iPaaS (Make/Zapier) やMCP/エージェント連携による非同期結合:** 現実世界の工場APIとWeb3 オンチェーンデータをMCP/エージェント連携等で繋ぐ「ハイブリッド型自動化」を採用することで、開発リソースを抑えつつ即座に実運用可能なフローを実現します。
 
-- **参照:** [02_solution_idea.md](file:///Users/sho_takahashi/Documents/Google Antigravity/pj_jpyc-ideathon/docs/02_solution_idea.md#L120-L131), [03_pitch_deck.md](file:///Users/sho_takahashi/Documents/Google Antigravity/pj_jpyc-ideathon/docs/03_pitch_deck.md#L79-L88)
+- **参照:** [02_solution_idea.md](./02_solution_idea.md#L120-L131), [03_pitch_deck.md](./03_pitch_deck.md#L79-L88)
 
 ### アクションプラン / スケジュール *
 > 現場の実需を捉えつつ、段階的に業界への働きかけと実証を進めます。
@@ -110,7 +110,7 @@
 > - **5-6ヶ月目: スモールスケールでの概念実証 (PoC):**
 >   iPaaSやMCP連携を用いた「情報連携の一部自動化」を、まずは限定的な範囲で試験的に実施。完全なシステム構築を目指す前に、情報の可視化や事務作業の軽減が実務にどのようなポジティブな変化をもたらすかを、定性的に検証・評価します。
 
-- **参照:** [03_pitch_deck.md](file:///Users/sho_takahashi/Documents/Google Antigravity/pj_jpyc-ideathon/docs/03_pitch_deck.md#L89-L93)
+- **参照:** [03_pitch_deck.md](./03_pitch_deck.md#L89-L93)
 
 ---
 
@@ -120,7 +120,7 @@
 (URLを貼り付けてください)
 > [!IMPORTANT]
 > 「リンクを知っている全員が閲覧可」の設定を必ず確認してください。
-- 準備用資料: [03_pitch_deck.md](file:///Users/sho_takahashi/Documents/Google Antigravity/pj_jpyc-ideathon/docs/03_pitch_deck.md)
+- 準備用資料: [03_pitch_deck.md](./03_pitch_deck.md)
 
 ### デモ動画 / プロトタイプURL
 **https://showying.github.io/pj_jpyc-ideathon/frontend/**
