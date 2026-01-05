@@ -53,3 +53,11 @@ secrets.js
 # Antigravity/Agent specific (Safety)
 **/.gemini/
 **/test_browser_videos/
+
+# Project Management & Agent Artifacts (Local only)
+docs/task.md
+docs/walkthrough.md
+docs/implementation_plan.md
+docs/security_audit_report.md
+docs/mockup_plan.md
+docs/agent_skills/

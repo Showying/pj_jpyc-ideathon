@@ -29,9 +29,3 @@
 ## 結果 (Consequence)
 - **売り手:** 手間とコストを考慮すると、一定の粗利率を維持するために単価を上げざるを得ない。海外販売はさらに上乗せが必要で、売れづらくなる。キャッシュフローも悪化。
 - **買い手:** 高値で買わざるを得ない。複数のプラットフォーム横断処理により、到着まで数週間かかる場合がある。
-
-## References (User Provided)
-- [Fees Doc](https://docs.google.com/document/d/1U4PpSf6Ukc1Bv-eGffRftojwcJXGar1lXJbbeCgysJ8/edit?usp=drivesdk)
-- [Shipping Doc](https://docs.google.com/document/d/1Y3CMBwkmefjHpSz-Q-avIUi9PwR-P6HX47L9dDYTbe4/edit?usp=drivesdk)
-- [Global Cost Doc](https://docs.google.com/document/d/10sjlAm9og35CJs8mruN_beqaFjoW1FiNS_dhKC6twaY/edit?usp=drivesdk)
-- [Another Cost Doc](https://docs.google.com/document/d/1qfhiANcDNEyBvIAGNuC2pPsFRipyDwjzQMDpzYtYb5E/edit?usp=drivesdk)
