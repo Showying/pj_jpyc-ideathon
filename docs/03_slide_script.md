@@ -118,19 +118,20 @@
 
 ---
 
-## Slide 8: Future Roadmap (将来展望)
-- **Layout:** Timeline / Steps
+## Slide 8: Roadmap (将来展望)
+- **Layout:** Timeline / Steps (Phase 1 to 3)
 - **Title:** Roadmap: From Auto-Ops to Autonomous Economy
-- **Phase 1: MVP (Now)**
-  *   iPaaS連携による業務自動化とJPYC決済の実証。
-- **Phase 2: AI Wallet (Next.js)**
-  *   EIP-7702 (Session Key) 実装。AIに「おこづかい（権限）」を持たせる。
-- **Phase 3: Autonomous (Future)**
-  *   AIが勝手にトレンド分析し、商品を作り、稼ぐ自律経済圏へ。
+- **Phase 1: Hybrid Automation (初期)**
+  *   既成EC(Shopify等) × iPaaS × JPYC決済の連携。手作業だった「発注・送金」の自動化。
+- **Phase 2: Agentic Wallet Scaling (拡張)**
+  *   EIP-7702基盤。AIに「制限付き財布」を持たせ、自律的な予算運用を実現。
+- **Phase 3: Fully Autonomous Economy (未来)**
+  *   AIによるトレンド分析〜IP生成〜販売の全自動化。人間は「資本（インフラ）」のオーナーへ。
 - **Speaker Notes:**
-  現在はフェーズ1、業務の自動化です。
-  次はEIP-7702を活用し、AI自身に財布を持たせます。
-  将来的には、AIが勝手に売れる商品を考え、勝手に稼いでくる。そんな「自律型経済圏」を目指します。
+  私たちのロードマップは、3つのステップで進化します。
+  初期（Phase 1）では、iPaaSを活用して、これまで手作業で行っていた既成ECと工場の商流をJPYCで繋ぎ、業務を自動化します。
+  次の拡張期（Phase 2）では、EIP-7702を実装し、AI自身に「制限付きの財布」を持たせます。これにより、AIが自ら予算を管理し、仕入れを行う「自律型店長」が誕生します。
+  そして未来（Phase 3）。AIが自ら流行を捉え、コンテンツを創り、稼ぐ。人間は「IPのオーナー」として見守るだけの、真に自律的な経済圏を構築します。
 
 ---
 

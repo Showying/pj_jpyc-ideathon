@@ -92,10 +92,19 @@
   - ユーザーは既存のウォレット（EOA）を変えることなく、AIオートメーションを導入可能。
   - **UX革命:** 既存ユーザーがアプリを入れる感覚で、AI商流を利用開始できる。
 
-## 8. Roadmap & Future
-- **Phase 1 (MVP):** iPaaS連携による「Ops自動化」と「JPYC決済」。
-- **Phase 2:** EIP-7702実装による「AIウォレット」化。
-- **Phase 3:** Fully Autonomous Economy。AIがトレンドを分析し、勝手に商品を作り、勝手に売る世界。
+## 8. Roadmap:From Auto-Ops to Autonomous Economy
+
+**Phase 1: Hybrid Automation (初期)**
+- **Core:** iPaaS (Make/Zapier) を核とした既成ECとJPYCの非同期連携。
+- **Action:** 顧客の購入(Shopify等)をWebhookで検知。AIがJPYCで仕入れ・発送指示をPOD工場へ自動実行する「Opsの自動化」を実証。
+
+**Phase 2: Agentic Wallet Scaling (拡張)**
+- **Core:** **EIP-7702 (Session Keys)** による「AIへの権限委譲」。
+- **Action:** ユーザーのEOA（既存ウォレット）を維持したまま、AIに「制限付き決済権限」を付与。AIが自律的に予算内で仕入れ・価格調整を行う「AI店長」モデルへの進化。
+
+**Phase 3: Fully Autonomous Economy (未来)**
+- **Core:** **AI-Generated IP ＆ Fully On-Chain Agent**。
+- **Action:** AIがSNSトレンドを分析し、デザイン生成、プロモーション、販売、収益回収までを全自動で行う「自律型知的財産権（Autonomous IP）」の確立。人間はインフラのオーナーとして利益を受け取るのみの経済圏へ。
 
 ## 9. Call to Action
 - クリエイターの情熱を、手数料と手間のない世界へ。
