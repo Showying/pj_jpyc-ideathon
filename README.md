@@ -25,13 +25,12 @@
 *   **Zero Fees:** JPYCによる直接決済で、プラットフォーム手数料＆振込手数料をゼロに。
 *   **Instant Liquidity:** スマートコントラクトによる「即時売上分配」と「即時着金」。
 
-### 📂 関連資料 (Presentation Materials)
-本プロジェクトの背景にある課題分析や、プレゼンテーション構成については以下を参照してください。
+*   **[🔴 プレゼン資料 (Speaker Deck)](https://speakerdeck.com/showyingart/pod-with-jpyc)**
 *   **[🔴 デモアプリ (Live Mockup)](https://showying.github.io/pj_jpyc-ideathon/frontend/)**
-*   **[デモ操作マニュアル (Demo Manual)](docs/06_demo_manual.md)**
+*   **[提出内容管理（下書き）](docs/05_submission_draft.md)**
 *   **[プレゼン構成案 (Pitch Deck)](docs/03_pitch_deck.md)**
 *   **[課題と解決策の定義 (Plan)](docs/02_solution_idea.md)**
-*   **[提出内容管理（下書き）](docs/05_submission_draft.md)**
+*   **[デモ操作マニュアル (Demo Manual)](docs/06_demo_manual.md)**
 *   **[モックアップ仕様書](docs/mockup_plan.md)**
 
 ## 🚀 機能と特徴 (Features)
@@ -55,14 +54,13 @@ GitHub Pagesでの動作を前提とした、軽量な静的サイト構成で�
 ## 📚 ドキュメント (Documentation)
 詳細な仕様やデモの手順については、以下のドキュメントを参照してください。
 
+*   **[🔴 プレゼン資料 (Speaker Deck)](https://speakerdeck.com/showyingart/pod-with-jpyc)**
 *   **[🔴 デモアプリ (Live Mockup)](https://showying.github.io/pj_jpyc-ideathon/frontend/)**
-*   **[デモ操作マニュアル (Demo Manual)](docs/06_demo_manual.md):**
-    *   画面キャプチャ付きの操作ガイド。手順①〜⑨が解決するPainを詳しく解説。
-*   **[モックアップ仕様書 (Spec)](docs/mockup_plan.md):**
-    *   実装されている機能、画面フロー、金融ロジックの詳細仕様。
-*   **[プレゼン構成案 (Pitch Deck)](docs/03_pitch_deck.md)**
-*   **[課題と解決策の定義 (Plan)](docs/02_solution_idea.md)**
+*   **[デモ操作マニュアル (Demo Manual)](docs/06_demo_manual.md)**
 *   **[提出内容管理 (Draft/Checklist)](docs/05_submission_draft.md)**
+*   **[課題と解決策の定義 (Plan)](docs/02_solution_idea.md)**
+*   **[プレゼン構成案 (Pitch Deck)](docs/03_pitch_deck.md)**
+*   **[モックアップ仕様書 (Spec)](docs/mockup_plan.md)**
 
 ## 💻 使い方 (Usage)
 1.  リポジトリをクローンまたはダウンロードし、`frontend/index.html` をブラウザ（Chrome推奨）で開きます。。（または [🔴 デモアプリ (Live Mockup)](https://showying.github.io/pj_jpyc-ideathon/frontend/) を開きます）

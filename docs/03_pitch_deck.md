@@ -1,5 +1,7 @@
 # Pitch Deck Outline: 暗号商流（クリプト・フロー） 〜ボーダレスEC/POD with JPYC〜
 
+> **[🔴 プレゼン資料を表示する (Speaker Deck)](https://speakerdeck.com/showyingart/pod-with-jpyc)**
+>
 > **Concept Proposal for the EC / POD (Print on Demand) Industry**
 > 本プロジェクトは、EC/PODプラットフォーム産業に向けた、次世代の産業構造の提案です。
 

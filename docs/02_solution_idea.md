@@ -1,7 +1,9 @@
 # ソリューションアイデア
 
-## 提言：AIクリエイターのための自律型経済圏（Agent-Driven Creator Economy）
-**〜ステーブルコインとDeFi、AIエージェントによる「Lot 1 POD」ビジネスの再構築〜**
+> **[🔴 プレゼン資料を表示する (Speaker Deck)](https://speakerdeck.com/showyingart/pod-with-jpyc)**
+>
+> ## 提言：AIクリエイターのための自律型経済圏（Agent-Driven Creator Economy）
+> **〜ステーブルコインとDeFi、AIエージェントによる「Lot 1 POD」ビジネスの再構築〜**
 
 ---
 

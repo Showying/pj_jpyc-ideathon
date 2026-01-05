@@ -117,7 +117,7 @@
 ## 5. 提出物 (Submission)
 
 ### 企画書 / ピッチデックURL *
-(URLを貼り付けてください)
+**https://speakerdeck.com/showyingart/pod-with-jpyc**
 > [!IMPORTANT]
 > 「リンクを知っている全員が閲覧可」の設定を必ず確認してください。
 - 準備用資料: [03_pitch_deck.md](./03_pitch_deck.md)
