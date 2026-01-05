@@ -103,18 +103,18 @@
 ---
 
 ## Slide 7: Why JPYC? (なぜJPYCか)
-- **Layout:** Three Points
-- **Title:** Why JPYC? (Why not USDC?)
-- **Point 1: Real Supply Chain**
-  *   日本の工場・配送業者は「円」で動く。為替リスクゼロが必須。
-- **Point 2: Compliance**
-  *   前払式支払手段準拠で、企業間取引(B2B)の導入障壁が低い。
-- **Point 3: AI Compatibility**
-  *   銀行口座を持てないAIが持てる、唯一の「円」。
+- **Layout:** Three Points / High Contrast
+- **Title:** Why JPYC? (The Power of Public Stablecoin)
+- **Point 1: Composable & Open**
+  *   特定のPFに閉じないパブリックチェーン資産。全世界のDeFiエコシステムと結合可能。
+- **Point 2: Atomic Settlement**
+  *   スマートコントラクトによる「納品と支払の即時同期」。中抜きや未回収リスクをゼロに。
+- **Point 3: Programmable Fiat**
+  *   AIが「予算」を理解できる安定性。銀行口座不要でAIが自律稼働できる唯一のインフラ。
 - **Speaker Notes:**
-  なぜUSDCではなくJPYCなのか。
-  最大の理由は「サプライチェーン」です。日本の工場は円で動いています。為替リスクのないJPYCこそが、実需に直結します。
-  そして、銀行口座を持てないAIエージェントにとって、JPYCこそが唯一の「扱える日本円」なのです。
+  なぜJPYCなのか。それは単なる「デジタルな円」ではなく、世界中のパブリックチェーン上で自由に動かせる「プログラマブルな通貨」だからです。
+  スマートコントラクトと組み合わせることで、納品と同時に支払いが完了する「アトミック・セトルメント（同時決済）」が可能になり、中間コストやリスクを排除できます。
+  そして、銀行口座を持てないAIエージェントにとって、安定した「円」の価値を持ちながら、コードで制御できるJPYCこそが、自律的なビジネスの血液となります。
 
 ---
 
