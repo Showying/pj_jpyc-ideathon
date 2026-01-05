@@ -28,7 +28,7 @@
 ### 📂 関連資料 (Presentation Materials)
 本プロジェクトの背景にある課題分析や、プレゼンテーション構成については以下を参照してください。
 *   **[🔴 デモアプリ (Live Mockup)](https://showying.github.io/pj_jpyc-ideathon/frontend/)**
-*   **[デモ操作台本 (Script)](docs/walkthrough.md)**
+*   **[デモ操作マニュアル (Demo Manual)](docs/06_demo_manual.md)**
 *   **[プレゼン構成案 (Pitch Deck)](docs/03_pitch_deck.md)**
 *   **[課題と解決策の定義 (Plan)](docs/02_solution_idea.md)**
 *   **[提出内容管理（下書き）](docs/05_submission_draft.md)**
@@ -56,8 +56,8 @@ GitHub Pagesでの動作を前提とした、軽量な静的サイト構成で�
 詳細な仕様やデモの手順については、以下のドキュメントを参照してください。
 
 *   **[🔴 デモアプリ (Live Mockup)](https://showying.github.io/pj_jpyc-ideathon/frontend/)**
-*   **[デモ操作マニュアル (Demo Script)](docs/walkthrough.md):**
-    *   プレゼン本番用の台本。画面上のアノテーション番号(①〜⑨)に沿った操作ガイド。
+*   **[デモ操作マニュアル (Demo Manual)](docs/06_demo_manual.md):**
+    *   画面キャプチャ付きの操作ガイド。手順①〜⑨が解決するPainを詳しく解説。
 *   **[モックアップ仕様書 (Spec)](docs/mockup_plan.md):**
     *   実装されている機能、画面フロー、金融ロジックの詳細仕様。
 *   **[プレゼン構成案 (Pitch Deck)](docs/03_pitch_deck.md)**
