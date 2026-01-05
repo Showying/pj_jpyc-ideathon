@@ -1,6 +1,7 @@
 # デモ操作マニュアル：暗号商流（クリプト・フロー）
 
 **[🔴 プレゼン資料を表示する (Speaker Deck)](https://speakerdeck.com/showyingart/pod-with-jpyc)**
+
 **[🔴 デモアプリを開く（Live Mockup）](https://showying.github.io/pj_jpyc-ideathon/frontend/)**
 
 本ドキュメントは、JPYC Ideathon 提出プロジェクト「暗号商流（クリプト・フロー） 〜ボーダレスEC/POD with JPYC〜」のデモアプリ操作ガイドです。全9ステップを通じて、AIエージェントとステーブルコインがどのようにクリエイターの「カネ」と「テマ」の壁を解消するかを解説します。
