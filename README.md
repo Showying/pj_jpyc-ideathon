@@ -30,7 +30,7 @@
 *   **[デモ操作マニュアル (Demo Manual)](docs/06_demo_manual.md)**
 *   **[課題と解決策の定義 (Plan)](docs/02_solution_idea.md)**
 *   **[プレゼン構成案 (Pitch Deck)](docs/03_pitch_deck.md)**
-*   **[モックアップ仕様書](docs/mockup_plan.md)**
+*   **[モックアップ仕様書 (Spec)](docs/mockup_plan.md)**
 *   **[提出内容管理（下書き）](docs/05_submission_draft.md)**
 
 ## 🚀 機能と特徴 (Features)
