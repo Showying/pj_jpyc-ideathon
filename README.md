@@ -27,11 +27,11 @@
 
 *   **[🔴 プレゼン資料 (Speaker Deck)](https://speakerdeck.com/showyingart/pod-with-jpyc)**
 *   **[🔴 デモアプリ (Live Mockup)](https://showying.github.io/pj_jpyc-ideathon/frontend/)**
-*   **[提出内容管理（下書き）](docs/05_submission_draft.md)**
-*   **[プレゼン構成案 (Pitch Deck)](docs/03_pitch_deck.md)**
-*   **[課題と解決策の定義 (Plan)](docs/02_solution_idea.md)**
 *   **[デモ操作マニュアル (Demo Manual)](docs/06_demo_manual.md)**
+*   **[課題と解決策の定義 (Plan)](docs/02_solution_idea.md)**
+*   **[プレゼン構成案 (Pitch Deck)](docs/03_pitch_deck.md)**
 *   **[モックアップ仕様書](docs/mockup_plan.md)**
+*   **[提出内容管理（下書き）](docs/05_submission_draft.md)**
 
 ## 🚀 機能と特徴 (Features)
 本モックアップでは、以下のフローを体験できます（数値やログはデモ用の演出です）。
@@ -57,10 +57,10 @@ GitHub Pagesでの動作を前提とした、軽量な静的サイト構成で�
 *   **[🔴 プレゼン資料 (Speaker Deck)](https://speakerdeck.com/showyingart/pod-with-jpyc)**
 *   **[🔴 デモアプリ (Live Mockup)](https://showying.github.io/pj_jpyc-ideathon/frontend/)**
 *   **[デモ操作マニュアル (Demo Manual)](docs/06_demo_manual.md)**
-*   **[提出内容管理 (Draft/Checklist)](docs/05_submission_draft.md)**
 *   **[課題と解決策の定義 (Plan)](docs/02_solution_idea.md)**
 *   **[プレゼン構成案 (Pitch Deck)](docs/03_pitch_deck.md)**
 *   **[モックアップ仕様書 (Spec)](docs/mockup_plan.md)**
+*   **[提出内容管理 (Draft/Checklist)](docs/05_submission_draft.md)**
 
 ## 💻 使い方 (Usage)
 1.  リポジトリをクローンまたはダウンロードし、`frontend/index.html` をブラウザ（Chrome推奨）で開きます。。（または [🔴 デモアプリ (Live Mockup)](https://showying.github.io/pj_jpyc-ideathon/frontend/) を開きます）
