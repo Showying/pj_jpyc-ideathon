@@ -3,6 +3,7 @@
 ## Update Log
 - **2025-12-27**: Initial draft created.
 - **2026-01-05**: Finalized all deliverables for submission.
+- **2026-01-06**: Submitted to JPYC Ideathon.
 
 ---
 
@@ -17,4 +18,4 @@
 - [x] 主要機能のコードがGitHubで公開されている
 
 ### KR 1.3: 提出完了
-- [/] 最終提出作業中（フォーム入力・送信）
+- [x] 2026-01-06 提出完了
