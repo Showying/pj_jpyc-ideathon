@@ -16,5 +16,10 @@
     - [x] 提出用下書き（05_submission_draft.md）の完成
     - [x] アイデアソン提出完了 (2026-01-06)
 
+### Outcome 2: デモデイ参加・受賞
+- **Initiative 2.1: ステータス待機・準備**
+    - [/] 繰り上げ登壇連絡の待機 (1/16 18:00まで)
+    - [ ] Demo Day 会場参加の準備 (1/23 渋谷STREAM)
+
 ## Unsorted Tasks
 - (TBD)
